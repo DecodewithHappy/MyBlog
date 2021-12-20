@@ -1,0 +1,202 @@
+/* 9E768F */
+/* 29335C */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+header {
+    height: 100vh;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+article {
+    padding: 80px;
+}
+header h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    font-weight: 100;
+}
+
+.first-header {
+    padding: 40px;
+    background-color: rgb(17, 124, 143);
+}
+
+nav{
+    padding-left: 0px;
+    margin-left: -31px;
+    right: 0px;
+    left: 33px;
+    margin-right: 0px;
+    top: 0px;
+    background-color: rgb(42, 19, 19);
+    overflow: hidden;
+    position: fixed;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 40px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: 'EB Garamond', serif;
+}
+
+nav a:hover {
+    color: crimson;
+}
+
+nav a:visited {
+    color: royalblue;
+}
+
+img {
+    padding-left: 0px;
+    border-left-width: 0px;
+    margin-left: 199px;
+    padding: 10px;
+    height: 60%;
+    width:50%;
+}
+
+h2,h3{
+    text-align: center;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(139, 20, 44);
+}
+
+h3::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    border-bottom: solid 2px #d64541;
+    margin: 10px auto;
+}
+
+ li{
+    display: inline;
+    text-align: center;
+    list-style:square;
+    padding: 4px;
+    font-size:large;
+    font-family: 'EB Garamond', serif;
+} 
+
+#ul1 {
+    list-style: none;
+}
+
+p{
+    font-size: 32px;
+    font-family: 'EB Garamond', serif;
+    color:rgb(4, 30, 30);
+}
+
+.about-me{
+    padding:none;
+    background-color: rgb(216, 157, 157);
+}
+
+.last-links{
+    text-align: center;
+    font-size: large;
+    font-family: 'EB Garamond', serif;
+}
+
+footer {
+    background-color: rgb(34, 18, 18);
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: 'EB Garamond', serif;
+}
+
+img.last{
+    width:15%;
+    height: 16%;
+    padding: none;
+    margin-left: 800px;
+}
+
+
+/*.Split{
+    height: 100%;
+    width:50%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    overflow-x: scroll;
+    padding-top: 20px;
+}
+*/
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+    padding: 10px;
+}
+
+.left{
+    /*left:0;*/
+    background-color: white;
+}
+
+.right{
+    /*right:0;*/
+    background-color: #9dd0df;
+}
+
+/*.centered{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img{
+    width: 150px;
+    border-radius: 50%;
+}
+*/
+
+.Split-right{
+    visibility:hidden;
+}
+
+.Split-right-Modified{
+    visibility: visible;
+}
+
+div.column-left, div.column-right{
+    height: 472px;
+    width: 931px;  
+}
