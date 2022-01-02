@@ -41,7 +41,7 @@ header h1 {
 
 nav{
     padding-left: 0px;
-    margin-left: -31px;
+    margin-left: -33px;
     right: 0px;
     left: 33px;
     margin-right: 0px;
@@ -107,7 +107,7 @@ h3::after {
 }
 
 p{
-    font-size: 32px;
+    font-size: 22px;
     font-family: 'EB Garamond', serif;
     color:rgb(4, 30, 30);
 }
@@ -160,13 +160,14 @@ img.last{
 }
 
 .column{
-    flex: 50%;
+    flex: 40%;
     padding: 10px;
 }
 
 .left{
     /*left:0;*/
     background-color: white;
+    width: 2220px;
 }
 
 .right{
@@ -198,5 +199,5 @@ img.last{
 
 div.column-left, div.column-right{
     height: 472px;
-    width: 931px;  
+    width: 737px;  
 }
