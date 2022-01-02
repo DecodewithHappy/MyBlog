@@ -84,6 +84,7 @@ h2,h3{
     color:rgb(139, 20, 44);
 }
 
+
 h3::after {
     content: "";
     display: block;
